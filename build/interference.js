@@ -4,5 +4,6 @@ function demo(user) {
 }
 demo({
     firstName: "aish",
-    age: 20
+    age: 20,
+    // hobby:"dance"
 });
