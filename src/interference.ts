@@ -1,10 +1,10 @@
-interface User{
+interface user{
     firstName:string,
     age:number
     hobby?:string
 }
 
-function demo (user:User){
+function demo (user:user){
    console.log("hyy ",user.firstName);
          
 }
@@ -14,3 +14,4 @@ demo({
     age:20,
     // hobby:"dance"
 })
+ 
